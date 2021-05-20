@@ -231,6 +231,8 @@ def logout():
         root.destroy()
     
 
+	
+# Download Images for buttons background as per your choice
 
 scanbt= PhotoImage(file='C:\\Users\\Satyam Singh\\OneDrive\\Desktop\\Python\\Face detection\\Images\\scan.png')
 scan =Button(image=scanbt,relief=RAISED,cursor="hand2",bd=8,command=Scan)
